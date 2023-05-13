@@ -15,7 +15,7 @@ import java.util.List;
 
 public class ToDoServlet extends HttpServlet {
     public static final String FIND_ALL_SERVLET_PATH = "/all";
-    public static final String INDEX_PAGE = "/jsp/todo-list.jsp";
+    public static final String INDEX_PAGE = "/jsp/todolist.jsp";
     private ToDoRepository toDoRepository = new InMemoryToDoRepository();
 
     @Override
